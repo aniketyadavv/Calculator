@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Calculator</h1>
+    <form action="" name="clc">
+        <input type="text" name="display"
+            style="width: 400px; height: 70px; background-color: rgb(250, 254, 255); color: rgb(3, 3, 3); border: 2px white solid; ">
+        <br>
+        <input type="button" class="btn" value="1" onclick="clc.display.value += '1' ">
+        <input type="button" class="btn" value="2" onclick="clc.display.value += '2' ">
+        <input type="button" class="btn" value="3" onclick="clc.display.value += '3' ">
+        <input type="button" class="btn1" value="+" onclick="clc.display.value += '+' "
+            style="background-color: rgb(96, 255, 34);"><br>
+        <input type="button" class="btn" value="4" onclick="clc.display.value += '4' ">
+        <input type="button" class="btn" value="5" onclick="clc.display.value += '5' ">
+        <input type="button" class="btn" value="6" onclick="clc.display.value += '6' ">
+        <input type="button" class="btn1" value="-" onclick="clc.display.value += '-' "
+            style="background-color: rgb(96, 255, 34);"><br>
+        <input type="button" class="btn" value="7" onclick="clc.display.value += '7' ">
+        <input type="button" class="btn" value="8" onclick="clc.display.value += '8' ">
+        <input type="button" class="btn" value="9" onclick="clc.display.value += '9' ">
+        <input type="button" class="btn1" value="*" onclick="clc.display.value += '*' "
+            style="background-color: rgb(96, 255, 34);"><br>
+        <input type="button" class="btn" value="0" onclick="clc.display.value += '0' ">
+        <input type="button" class="btn1" value="C" onclick="clc.display.value = '' "
+            style="background-color: rgb(0, 183, 255);">
+        <input type="button" class="btn" value="." onclick="clc.display.value += '.' ">
+
+        <input type="button" class="btn1" value="&#247;" onclick="clc.display.value += '/' "
+            style="background-color: rgb(96, 255, 34);"> <br>
+        <input type="button" class="btn1" value="=" onclick="clc.display.value = eval(clc.display.value) "
+            style="background-color: rgba(255, 102, 0, 0.938); width: 400px;">
+
+    </form>
+</body>
+
+</html>

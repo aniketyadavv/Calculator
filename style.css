@@ -1,0 +1,40 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(to left, #5b05b6,#06bdf5);
+    color: white;
+    text-align: center;
+   
+}
+h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+input{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 50px;
+    margin: 15px;
+    background-color: rgb(255, 254, 254);
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(248, 248, 52); 
+     cursor: pointer;
+     font-size: 60px;
+ transition: all .1s ease-in-out;
+ /* transform: rotate(360deg); */
+
+}
+.btn1:hover{
+    cursor: pointer;
+    font-size: 60px;
+    transition: all .1s ease-in-out;
+ /* transform: rotate(360deg); */
+
+    
+}
